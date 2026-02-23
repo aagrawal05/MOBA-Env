@@ -78,6 +78,25 @@ Open one of:
 
 Press ▶️ Play to run in the editor.
 
+## 🎮 Manual Control (Editor Testing)
+
+You can test the environment in the editor without trained models. With no Python connection, agents use the built-in **Heuristic** (keyboard control).
+
+### ⌨️ Keyboard Controls
+
+| Key | Action |
+|-----|--------|
+| **W** | Move forward |
+| **S** | Move backward |
+| **A** | Rotate left |
+| **D** | Rotate right |
+| **Q** | Strafe left |
+| **E** | Strafe right |
+| **X** | Attack |
+| **Space** | Ability |
+
+> **Note:** In editor, all agents respond to the same keys and move together. Focus the Game view for input.
+
 ## 🖥️ Building Headless (Training)
 
 For RL training, build a Linux headless executable:
